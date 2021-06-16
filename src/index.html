@@ -1,0 +1,40 @@
+{% set title = "Manu Sánchez & Contact" %}
+{% set description = "Check out all that I like about the world of coding" %} 
+{% set heroImage = "../../assets/img/about-manu-sanchez.jpg" %}
+{% set imgAbsPath = "https://www.manu-sanchez.com/assets/img/about-manu-sanchez.jpg" %} 
+{% set keywords = "contact, manu sanchez, contact me, contact form" %} 
+{% set job = "Artist" %};
+{% set navigation_long = true %}; 
+
+{% extends './templates/_base.njk' %} 
+
+{% block content %}
+    {% include "./templates/navigation/_navigation.njk" %}
+    <div id="container" class="container">
+      <h1>This is a template for Nunjucks and Gulp!</h1>
+      <a href="#" class="button button-fit">Click me</a>
+      <a href="#" class="button button-secondary button-fit"
+        >Click me, I am a button</a
+      >
+      <div class="grid">
+        <div class="grid-element">Element 1</div>
+        <div class="grid-element">Element 2</div>
+        <div class="grid-element">Element 3</div>
+        <div class="grid-element">Element 2</div>
+        <div class="grid-element">Element 3</div>
+        <div class="grid-element">Element 2</div>
+        <div class="grid-element">Element 3</div>
+        <div class="grid-element">Element 3</div>
+        <div class="grid-element">Element 2</div>
+        <div class="grid-element">Element 3</div>
+        <div class="grid-element">Element 3</div>
+        <div class="grid-element">Element 2</div>
+        <div class="grid-element">Element 3</div>
+      </div>
+      <a href="" class="button button-secondary button-fit button-back"
+        >Back to Top</a
+      >
+    </div>
+    {% include "./templates/footer/_footer.njk" %}
+    {% include "./templates/head/_seo-schema.njk" %}
+{% endblock %}

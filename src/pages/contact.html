@@ -1,0 +1,16 @@
+{% set title = "Manu Sánchez & Contact" %}
+{% set description = "Check out all that I like about the world of coding" %} 
+{% set heroImage = "../../assets/img/about-manu-sanchez.jpg" %}
+{% set imgAbsPath = "https://www.manu-sanchez.com/assets/img/about-manu-sanchez.jpg" %} 
+{% set keywords = "contact, manu sanchez, contact me, contact form" %} 
+{% set job = "Artist" %};
+{% set navigation_long = true %}; 
+
+{% extends '../templates/_base.njk' %} 
+
+{% block content %}
+    {% include "../templates/navigation/_navigation.njk" %}
+    <h2>This is contact</h2>
+    {% include "../templates/footer/_footer.njk" %}
+    {% include "../templates/head/_seo-schema.njk" %}
+{% endblock %}

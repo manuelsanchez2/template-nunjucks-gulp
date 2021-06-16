@@ -1,0 +1,30 @@
+{
+  "name": "template-nunjucks",
+  "version": "1.0.0",
+  "description": "Please, feel free to use it! It would be cool if you could give a star to this repo in exchange ;)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuelsanchez2/template-nunjucks-gulp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuelsanchez2/template-nunjucks-gulp/issues"
+  },
+  "homepage": "https://github.com/manuelsanchez2/template-nunjucks-gulp#readme",
+  "dependencies": {
+    "chokidar": "^3.5.2",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-nunjucks-render": "^2.2.3",
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {
+    "gulp-data": "^1.3.1"
+  }
+}

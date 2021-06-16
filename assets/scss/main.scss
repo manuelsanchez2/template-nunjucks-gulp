@@ -8,6 +8,11 @@
 
 @import "./layout/base";
 
+// Navigation and Footer
+
+@import "./navigation/navigation";
+@import "./footer/footer";
+
 // Components
 
 @import "./components/grid";

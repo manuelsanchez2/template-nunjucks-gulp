@@ -63,6 +63,14 @@ h1 {
   }
 }
 
+.header {
+  background: blue;
+}
+
+footer {
+  background: green;
+}
+
 .grid {
   display: -webkit-box;
   display: -ms-flexbox;
